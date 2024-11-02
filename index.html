@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-success">
+  <div class="sectionOne">
+    <div class="container">
+      <h1 class="text-center text-warning p-3 h1qe">Todo List</h1>
+      <form class="forms row justify-content-between">
+        <input type="text" class="col-12 p-3 rounded-pill m-2" placeholder="Write Your Task Name" id="taskName" required>
+        <input type="text" class="col-12 p-3 rounded-pill m-2" placeholder="Write Your Task Details" id="taskDetail" required>
+        <button class="btn btn-primary p-3 fw-bold rounded-pill" id="btnAdd">Add</button>
+        <button class="btn btn-primary p-3 fw-bold rounded-pill addNone" id="updateBtn">Update</button>
+        <div class="numlists text-center fs-3 text-dark fw-800 p-3" id="DetailsTASKS">
+        </div>
+      </form>
+      <div class="tables row p-4" id="tableHead">
+      </div>
+      <div class="tableDetails mt-3" id="tableDetail">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- JS -->
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/jquery-3.7.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

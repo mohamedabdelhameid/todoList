@@ -1,0 +1,11 @@
+.addNone{
+  display: none !important;
+}
+.h1qe{
+  font-size: 80px;
+}
+@media (max-width: 424px) {
+  .h1qe{
+    font-size: 60px;
+  }
+}
